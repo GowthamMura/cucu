@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="13.868511">
+<testcase classname="Application Login" name="Home page defaultlogin with valid credentials" time="6.526177">
+<system-out><![CDATA[Given User launch the facebook web application..............................passed
+When User enters valid username and valid password..........................passed
+And User needs click the login button.......................................passed
+Then verify user is navigating to home page or not..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Application login with credentials with multiple test case" time="3.686908">
+<system-out><![CDATA[Given User launch the facebook web application..............................passed
+When User enters valid "gowtham" and valid "abc@123"........................passed
+And User needs click the login button.......................................passed
+Then verify user is navigating to home page or not..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Application login with credentials with multiple test case 2" time="3.655426">
+<system-out><![CDATA[Given User launch the facebook web application..............................passed
+When User enters valid "mura" and valid "12345".............................passed
+And User needs click the login button.......................................passed
+Then verify user is navigating to home page or not..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

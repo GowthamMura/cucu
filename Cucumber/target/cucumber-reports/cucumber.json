@@ -1,0 +1,267 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 169000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the facebook web application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_facebook_web_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11562111000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Home page defaultlogin with valid credentials",
+        "description": "",
+        "id": "application-login;home-page-defaultlogin-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 300541800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters valid username and valid password",
+            "match": {
+              "location": "StepDefinition.user_enters_valid_username_and_valid_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113865700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User needs click the login button",
+            "match": {
+              "location": "StepDefinition.user_needs_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user is navigating to home page or not",
+            "match": {
+              "location": "StepDefinition.verify_user_is_navigating_to_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 61100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the facebook web application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_facebook_web_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3180548200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Application login with credentials with multiple test case",
+        "description": "",
+        "id": "application-login;application-login-with-credentials-with-multiple-test-case;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 227355300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters valid \"gowtham\" and valid \"abc@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"gowtham\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"abc@123\"",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and_valid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 112149800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User needs click the login button",
+            "match": {
+              "location": "StepDefinition.user_needs_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify user is navigating to home page or not",
+            "match": {
+              "location": "StepDefinition.verify_user_is_navigating_to_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 86400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the facebook web application",
+            "match": {
+              "location": "StepDefinition.user_launch_the_facebook_web_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3427716900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CucumberHooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Application login with credentials with multiple test case",
+        "description": "",
+        "id": "application-login;application-login-with-credentials-with-multiple-test-case;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 216638800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters valid \"mura\" and valid \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mura\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinition.user_enters_valid_and_valid(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 109495300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User needs click the login button",
+            "match": {
+              "location": "StepDefinition.user_needs_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify user is navigating to home page or not",
+            "match": {
+              "location": "StepDefinition.verify_user_is_navigating_to_home_page_or_not()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FacebookLoginFeature/FaceBook.feature",
+    "tags": []
+  }
+]
