@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="card">
+    <h2>Equipment Costs</h2>
+    <form method="post" class="validated-form">
+        <label>Equipment Name <input type="text" name="name" required></label>
+        <label>Category <input type="text" name="category"></label>
+        <label>Cost <input type="number" name="cost" min="0" step="0.01" required></label>
+        <button type="submit">Save Equipment</button>
+    </form>
+</section>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="card">
+    <h2>Employee Information</h2>
+    <form method="post" class="validated-form">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Role <input type="text" name="role" required></label>
+        <label>Salary <input type="number" name="salary" min="0" step="0.01" required></label>
+        <button type="submit">Save Employee</button>
+    </form>
+</section>
+{% endblock %}
