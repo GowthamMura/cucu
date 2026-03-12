@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="card">
+    <h2>Cost Dashboard</h2>
+    <p><strong>Total Healthcare Cost:</strong> {{ '%.2f'|format(total_cost) }}</p>
+
+    <h3>Category Breakdown</h3>
+    <table>
+        <thead>
+            <tr><th>Category</th><th>Cost</th></tr>
+        </thead>
+        <tbody>
+            {% for category, value in breakdown.items() %}
+                <tr>
+                    <td>{{ category }}</td>
+                    <td>{{ '%.2f'|format(value) }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h3>Billing Transparency</h3>
+    <table>
+        <thead>
+            <tr><th>Category</th><th>Cost</th><th>% of Total</th></tr>
+        </thead>
+        <tbody>
+            {% for row in transparency_table %}
+                <tr>
+                    <td>{{ row.category }}</td>
+                    <td>{{ '%.2f'|format(row.cost) }}</td>
+                    <td>{{ row.percentage }}%</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="card">
+    <h3>Anomaly Detection (Z-score based)</h3>
+    {% for category, findings in anomalies.items() %}
+        <h4>{{ category|capitalize }}</h4>
+        {% if findings %}
+            <ul>
+                {% for item in findings %}
+                    <li>Record {{ item.record_index }}: amount {{ item.amount }}, z-score {{ item.z_score }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No anomalies detected.</p>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<section class="card">
+    <h3>Cost Visualization</h3>
+    <div id="costChart"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    const graphData = {{ chart_json | safe }};
+    Plotly.newPlot('costChart', graphData.data, graphData.layout);
+</script>
+{% endblock %}

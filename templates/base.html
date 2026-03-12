@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Healthcare Cost & Billing Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+<header>
+    <h1>Healthcare Cost & Billing Analysis System</h1>
+    <nav>
+        <a href="{{ url_for('forms.index') }}">Home</a>
+        <a href="{{ url_for('forms.patient_form') }}">Patients</a>
+        <a href="{{ url_for('forms.doctor_form') }}">Doctors</a>
+        <a href="{{ url_for('forms.employee_form') }}">Employees</a>
+        <a href="{{ url_for('forms.equipment_form') }}">Equipment</a>
+        <a href="{{ url_for('forms.infrastructure_form') }}">Infrastructure</a>
+        <a href="{{ url_for('forms.other_expense_form') }}">Other Expenses</a>
+        <a href="{{ url_for('dashboard.dashboard') }}">Dashboard</a>
+    </nav>
+</header>
+
+<main>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for category, message in messages %}
+                    <li class="{{ category }}">{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+</main>
+
+<script src="{{ url_for('static', filename='js/validation.js') }}"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

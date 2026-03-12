@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="card">
+    <h2>Doctor Information</h2>
+    <form method="post" class="validated-form">
+        <label>Name <input type="text" name="name" required></label>
+        <label>Specialization <input type="text" name="specialization" required></label>
+        <label>Consultation Fee <input type="number" name="consultation_fee" min="0" step="0.01" required></label>
+        <button type="submit">Save Doctor</button>
+    </form>
+</section>
+{% endblock %}
