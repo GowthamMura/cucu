@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Dataset Upload</h2>
+<div class="card p-4 mb-3">
+  <form method="POST" enctype="multipart/form-data">
+    <div class="mb-3">
+      <label class="form-label">Upload Cyber Crime CSV</label>
+      <input type="file" class="form-control" name="dataset" accept=".csv" required>
+    </div>
+    <button class="btn btn-success">Upload Dataset</button>
+  </form>
+</div>
+
+{% if preview_rows %}
+<div class="card p-3">
+  <h5>Dataset Preview (Top 10 Rows)</h5>
+  <div class="table-responsive">
+    <table class="table table-sm table-striped">
+      <thead><tr>{% for col in preview_columns %}<th>{{ col }}</th>{% endfor %}</tr></thead>
+      <tbody>
+        {% for row in preview_rows %}
+        <tr>{% for col in preview_columns %}<td>{{ row[col] }}</td>{% endfor %}</tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+{% endblock %}

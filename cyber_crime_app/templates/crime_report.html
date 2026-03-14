@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Submit Crime Report</h2>
+<div class="row g-3">
+  <div class="col-md-6">
+    <div class="card p-4">
+      <form method="POST" class="row g-3">
+        <div class="col-12"><label class="form-label">Crime Type</label><input name="crime_type" class="form-control" required></div>
+        <div class="col-12"><label class="form-label">Description</label><textarea name="description" class="form-control" rows="3" required></textarea></div>
+        <div class="col-md-6"><label class="form-label">Location</label><input name="location" class="form-control" required></div>
+        <div class="col-md-6"><label class="form-label">Date</label><input type="date" name="report_date" class="form-control" required></div>
+        <div class="col-12"><label class="form-label">Severity Level</label>
+          <select class="form-select" name="severity_level" required>
+            <option value="">Select</option>
+            <option>Low</option><option>Medium</option><option>High</option><option>Critical</option>
+          </select>
+        </div>
+        <div class="col-12"><button class="btn btn-danger">Submit Report</button></div>
+      </form>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card p-3">
+      <h5>Recent Submitted Reports</h5>
+      <div class="table-responsive">
+      <table class="table table-sm table-striped">
+        <thead><tr><th>ID</th><th>Crime</th><th>Location</th><th>Date</th><th>Severity</th></tr></thead>
+        <tbody>
+          {% for r in recent_reports %}
+            <tr><td>{{ r.id }}</td><td>{{ r.crime_type }}</td><td>{{ r.location }}</td><td>{{ r.report_date }}</td><td>{{ r.severity_level }}</td></tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

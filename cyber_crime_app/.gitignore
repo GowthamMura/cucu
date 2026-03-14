@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+cyber_crime.db
+uploads/*.csv

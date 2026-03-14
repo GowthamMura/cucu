@@ -1,0 +1,4 @@
+body { background-color: #f5f7fb; }
+.card { border: 0; border-radius: 0.9rem; box-shadow: 0 4px 14px rgba(0,0,0,0.05); }
+.metric-card { background: linear-gradient(135deg, #1f6feb, #56a6ff); color: white; }
+.table th { white-space: nowrap; }

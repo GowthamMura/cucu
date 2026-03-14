@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2 class="mb-3">Cyber Crime Dashboard</h2>
+<div class="row g-3 mb-3">
+  <div class="col-md-3"><div class="card metric-card"><div class="card-body"><h6>Total Crimes</h6><h3>{{ metrics.total_crimes }}</h3></div></div></div>
+  <div class="col-md-3"><div class="card metric-card"><div class="card-body"><h6>Most Common Crime</h6><h5>{{ metrics.most_common }}</h5></div></div></div>
+  <div class="col-md-3"><div class="card metric-card"><div class="card-body"><h6>Latest Year</h6><h3>{{ metrics.latest_year }}</h3></div></div></div>
+  <div class="col-md-3"><div class="card metric-card"><div class="card-body"><h6>Trend</h6><h4>{{ metrics.trend_direction }}</h4></div></div></div>
+</div>
+<p class="text-muted">Last upload: {{ last_upload or 'No dataset uploaded yet' }}</p>
+
+<div class="row g-4">
+  <div class="col-md-6"><div class="card p-3"><h6>Crime Type Distribution</h6><canvas id="crimeTypeChart"></canvas></div></div>
+  <div class="col-md-6"><div class="card p-3"><h6>Crimes Per Year</h6><canvas id="yearChart"></canvas></div></div>
+  <div class="col-md-6"><div class="card p-3"><h6>Crimes By Location</h6><canvas id="locationChart"></canvas></div></div>
+  <div class="col-md-6"><div class="card p-3"><h6>Severity Level Analysis</h6><canvas id="severityChart"></canvas></div></div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const chartData = {{ charts | tojson }};
+  createBarChart('crimeTypeChart', chartData.crime_type_labels, chartData.crime_type_values, 'Crimes');
+  createLineChart('yearChart', chartData.year_labels, chartData.year_values, 'Cases');
+  createBarChart('locationChart', chartData.location_labels, chartData.location_values, 'Cases');
+  createPieChart('severityChart', chartData.severity_labels, chartData.severity_values);
+</script>
+{% endblock %}

@@ -1,0 +1,201 @@
+Case_ID,Crime_Type,Location,State,Year,Victim_Age,Severity_Level,Description
+CC-0001,Identity Theft,Mumbai,Maharashtra,2024,35,Medium,Unauthorized use of personal identity information reported.
+CC-0002,Ransomware,Delhi,Delhi,2024,65,Critical,Systems encrypted and ransom demanded for decryption key.
+CC-0003,Identity Theft,Lucknow,Uttar Pradesh,2022,20,Low,Unauthorized use of personal identity information reported.
+CC-0004,Online Fraud,Chennai,Tamil Nadu,2023,56,Low,Financial loss caused through fake online transaction.
+CC-0005,Online Fraud,Jaipur,Rajasthan,2022,32,Medium,Financial loss caused through fake online transaction.
+CC-0006,Data Breach,Mumbai,Maharashtra,2025,69,Low,Sensitive customer information exposed by unauthorized access.
+CC-0007,Card Skimming,Pune,Maharashtra,2021,27,Medium,Payment card details copied using compromised device.
+CC-0008,Cyber Bullying,Delhi,Delhi,2019,42,Low,Repeated harassment reported over social media platform.
+CC-0009,Cyber Bullying,Lucknow,Uttar Pradesh,2021,69,Low,Repeated harassment reported over social media platform.
+CC-0010,Malware Attack,Jaipur,Rajasthan,2019,42,Low,Malicious software infected endpoint causing data disruption.
+CC-0011,Data Breach,Lucknow,Uttar Pradesh,2025,41,High,Sensitive customer information exposed by unauthorized access.
+CC-0012,Identity Theft,Mumbai,Maharashtra,2024,32,High,Unauthorized use of personal identity information reported.
+CC-0013,Identity Theft,Chennai,Tamil Nadu,2025,24,Medium,Unauthorized use of personal identity information reported.
+CC-0014,Malware Attack,Pune,Maharashtra,2020,41,Medium,Malicious software infected endpoint causing data disruption.
+CC-0015,Data Breach,Delhi,Delhi,2023,58,Low,Sensitive customer information exposed by unauthorized access.
+CC-0016,Online Fraud,Bengaluru,Karnataka,2022,42,Medium,Financial loss caused through fake online transaction.
+CC-0017,Online Fraud,Pune,Maharashtra,2025,67,High,Financial loss caused through fake online transaction.
+CC-0018,Online Fraud,Mumbai,Maharashtra,2025,38,Medium,Financial loss caused through fake online transaction.
+CC-0019,Identity Theft,Chennai,Tamil Nadu,2023,63,Medium,Unauthorized use of personal identity information reported.
+CC-0020,Malware Attack,Kolkata,West Bengal,2024,47,Low,Malicious software infected endpoint causing data disruption.
+CC-0021,Ransomware,Chennai,Tamil Nadu,2024,53,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0022,Card Skimming,Lucknow,Uttar Pradesh,2022,41,Medium,Payment card details copied using compromised device.
+CC-0023,Ransomware,Jaipur,Rajasthan,2022,23,High,Systems encrypted and ransom demanded for decryption key.
+CC-0024,Identity Theft,Bengaluru,Karnataka,2024,28,High,Unauthorized use of personal identity information reported.
+CC-0025,Card Skimming,Lucknow,Uttar Pradesh,2019,42,Medium,Payment card details copied using compromised device.
+CC-0026,Malware Attack,Jaipur,Rajasthan,2021,53,Critical,Malicious software infected endpoint causing data disruption.
+CC-0027,Phishing,Delhi,Delhi,2024,52,High,Victim received deceptive email requesting account credentials.
+CC-0028,Cyber Bullying,Delhi,Delhi,2021,45,Low,Repeated harassment reported over social media platform.
+CC-0029,Phishing,Hyderabad,Telangana,2023,66,Low,Victim received deceptive email requesting account credentials.
+CC-0030,Identity Theft,Hyderabad,Telangana,2025,58,Medium,Unauthorized use of personal identity information reported.
+CC-0031,Online Fraud,Bengaluru,Karnataka,2021,66,Low,Financial loss caused through fake online transaction.
+CC-0032,Phishing,Lucknow,Uttar Pradesh,2021,49,Low,Victim received deceptive email requesting account credentials.
+CC-0033,Cyber Bullying,Hyderabad,Telangana,2020,21,Medium,Repeated harassment reported over social media platform.
+CC-0034,Identity Theft,Delhi,Delhi,2024,49,High,Unauthorized use of personal identity information reported.
+CC-0035,Ransomware,Bengaluru,Karnataka,2024,48,Critical,Systems encrypted and ransom demanded for decryption key.
+CC-0036,Ransomware,Hyderabad,Telangana,2023,56,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0037,Online Fraud,Jaipur,Rajasthan,2025,64,High,Financial loss caused through fake online transaction.
+CC-0038,Data Breach,Kolkata,West Bengal,2024,59,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0039,Malware Attack,Delhi,Delhi,2020,32,Low,Malicious software infected endpoint causing data disruption.
+CC-0040,Phishing,Lucknow,Uttar Pradesh,2023,32,High,Victim received deceptive email requesting account credentials.
+CC-0041,Phishing,Delhi,Delhi,2024,58,Low,Victim received deceptive email requesting account credentials.
+CC-0042,Identity Theft,Mumbai,Maharashtra,2025,39,Low,Unauthorized use of personal identity information reported.
+CC-0043,Online Fraud,Hyderabad,Telangana,2024,49,Medium,Financial loss caused through fake online transaction.
+CC-0044,Ransomware,Lucknow,Uttar Pradesh,2023,48,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0045,Malware Attack,Kolkata,West Bengal,2020,24,Low,Malicious software infected endpoint causing data disruption.
+CC-0046,Card Skimming,Pune,Maharashtra,2022,44,Medium,Payment card details copied using compromised device.
+CC-0047,Phishing,Delhi,Delhi,2019,43,High,Victim received deceptive email requesting account credentials.
+CC-0048,Identity Theft,Chennai,Tamil Nadu,2020,30,Medium,Unauthorized use of personal identity information reported.
+CC-0049,Ransomware,Kolkata,West Bengal,2020,35,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0050,Identity Theft,Ahmedabad,Gujarat,2025,53,Low,Unauthorized use of personal identity information reported.
+CC-0051,Phishing,Delhi,Delhi,2025,33,Low,Victim received deceptive email requesting account credentials.
+CC-0052,Malware Attack,Ahmedabad,Gujarat,2020,43,Critical,Malicious software infected endpoint causing data disruption.
+CC-0053,Ransomware,Kolkata,West Bengal,2019,42,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0054,Malware Attack,Hyderabad,Telangana,2022,62,Critical,Malicious software infected endpoint causing data disruption.
+CC-0055,Malware Attack,Bengaluru,Karnataka,2020,36,Medium,Malicious software infected endpoint causing data disruption.
+CC-0056,Phishing,Lucknow,Uttar Pradesh,2024,52,Low,Victim received deceptive email requesting account credentials.
+CC-0057,Cyber Bullying,Mumbai,Maharashtra,2019,55,Medium,Repeated harassment reported over social media platform.
+CC-0058,Ransomware,Mumbai,Maharashtra,2023,23,Critical,Systems encrypted and ransom demanded for decryption key.
+CC-0059,Identity Theft,Lucknow,Uttar Pradesh,2019,61,Critical,Unauthorized use of personal identity information reported.
+CC-0060,Card Skimming,Delhi,Delhi,2023,33,High,Payment card details copied using compromised device.
+CC-0061,Phishing,Lucknow,Uttar Pradesh,2019,44,High,Victim received deceptive email requesting account credentials.
+CC-0062,Cyber Bullying,Hyderabad,Telangana,2020,60,High,Repeated harassment reported over social media platform.
+CC-0063,Online Fraud,Hyderabad,Telangana,2022,26,High,Financial loss caused through fake online transaction.
+CC-0064,Data Breach,Ahmedabad,Gujarat,2021,66,Critical,Sensitive customer information exposed by unauthorized access.
+CC-0065,Phishing,Ahmedabad,Gujarat,2023,54,Critical,Victim received deceptive email requesting account credentials.
+CC-0066,Identity Theft,Jaipur,Rajasthan,2020,50,Medium,Unauthorized use of personal identity information reported.
+CC-0067,Cyber Bullying,Delhi,Delhi,2020,41,Medium,Repeated harassment reported over social media platform.
+CC-0068,Malware Attack,Jaipur,Rajasthan,2024,37,High,Malicious software infected endpoint causing data disruption.
+CC-0069,Phishing,Jaipur,Rajasthan,2021,60,Low,Victim received deceptive email requesting account credentials.
+CC-0070,Ransomware,Hyderabad,Telangana,2019,24,High,Systems encrypted and ransom demanded for decryption key.
+CC-0071,Ransomware,Hyderabad,Telangana,2021,56,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0072,Cyber Bullying,Chennai,Tamil Nadu,2024,58,Critical,Repeated harassment reported over social media platform.
+CC-0073,Malware Attack,Hyderabad,Telangana,2025,21,Low,Malicious software infected endpoint causing data disruption.
+CC-0074,Card Skimming,Hyderabad,Telangana,2019,18,Medium,Payment card details copied using compromised device.
+CC-0075,Ransomware,Hyderabad,Telangana,2020,65,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0076,Card Skimming,Jaipur,Rajasthan,2019,25,Low,Payment card details copied using compromised device.
+CC-0077,Ransomware,Jaipur,Rajasthan,2019,41,High,Systems encrypted and ransom demanded for decryption key.
+CC-0078,Ransomware,Kolkata,West Bengal,2020,20,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0079,Phishing,Pune,Maharashtra,2020,61,Medium,Victim received deceptive email requesting account credentials.
+CC-0080,Identity Theft,Pune,Maharashtra,2025,53,Critical,Unauthorized use of personal identity information reported.
+CC-0081,Card Skimming,Lucknow,Uttar Pradesh,2024,27,Critical,Payment card details copied using compromised device.
+CC-0082,Online Fraud,Bengaluru,Karnataka,2025,69,Low,Financial loss caused through fake online transaction.
+CC-0083,Card Skimming,Mumbai,Maharashtra,2020,65,Critical,Payment card details copied using compromised device.
+CC-0084,Card Skimming,Chennai,Tamil Nadu,2021,28,High,Payment card details copied using compromised device.
+CC-0085,Identity Theft,Kolkata,West Bengal,2025,20,Critical,Unauthorized use of personal identity information reported.
+CC-0086,Online Fraud,Chennai,Tamil Nadu,2025,47,Medium,Financial loss caused through fake online transaction.
+CC-0087,Online Fraud,Chennai,Tamil Nadu,2019,60,Low,Financial loss caused through fake online transaction.
+CC-0088,Cyber Bullying,Hyderabad,Telangana,2025,22,Critical,Repeated harassment reported over social media platform.
+CC-0089,Data Breach,Pune,Maharashtra,2024,50,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0090,Cyber Bullying,Mumbai,Maharashtra,2019,34,Low,Repeated harassment reported over social media platform.
+CC-0091,Data Breach,Mumbai,Maharashtra,2019,56,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0092,Cyber Bullying,Kolkata,West Bengal,2023,50,Low,Repeated harassment reported over social media platform.
+CC-0093,Online Fraud,Hyderabad,Telangana,2019,63,Medium,Financial loss caused through fake online transaction.
+CC-0094,Online Fraud,Pune,Maharashtra,2022,22,Critical,Financial loss caused through fake online transaction.
+CC-0095,Cyber Bullying,Lucknow,Uttar Pradesh,2021,60,High,Repeated harassment reported over social media platform.
+CC-0096,Data Breach,Jaipur,Rajasthan,2021,60,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0097,Card Skimming,Hyderabad,Telangana,2023,26,Low,Payment card details copied using compromised device.
+CC-0098,Card Skimming,Bengaluru,Karnataka,2023,54,Medium,Payment card details copied using compromised device.
+CC-0099,Phishing,Hyderabad,Telangana,2021,31,Medium,Victim received deceptive email requesting account credentials.
+CC-0100,Cyber Bullying,Ahmedabad,Gujarat,2022,46,High,Repeated harassment reported over social media platform.
+CC-0101,Malware Attack,Bengaluru,Karnataka,2024,23,Medium,Malicious software infected endpoint causing data disruption.
+CC-0102,Cyber Bullying,Delhi,Delhi,2025,66,Medium,Repeated harassment reported over social media platform.
+CC-0103,Data Breach,Chennai,Tamil Nadu,2025,30,Low,Sensitive customer information exposed by unauthorized access.
+CC-0104,Phishing,Chennai,Tamil Nadu,2022,57,High,Victim received deceptive email requesting account credentials.
+CC-0105,Identity Theft,Ahmedabad,Gujarat,2022,58,High,Unauthorized use of personal identity information reported.
+CC-0106,Card Skimming,Ahmedabad,Gujarat,2022,33,Low,Payment card details copied using compromised device.
+CC-0107,Phishing,Delhi,Delhi,2025,45,Medium,Victim received deceptive email requesting account credentials.
+CC-0108,Malware Attack,Mumbai,Maharashtra,2023,33,Critical,Malicious software infected endpoint causing data disruption.
+CC-0109,Identity Theft,Ahmedabad,Gujarat,2020,69,Medium,Unauthorized use of personal identity information reported.
+CC-0110,Cyber Bullying,Ahmedabad,Gujarat,2023,70,High,Repeated harassment reported over social media platform.
+CC-0111,Card Skimming,Jaipur,Rajasthan,2022,28,High,Payment card details copied using compromised device.
+CC-0112,Malware Attack,Ahmedabad,Gujarat,2021,66,Medium,Malicious software infected endpoint causing data disruption.
+CC-0113,Data Breach,Jaipur,Rajasthan,2022,58,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0114,Malware Attack,Delhi,Delhi,2024,36,Medium,Malicious software infected endpoint causing data disruption.
+CC-0115,Cyber Bullying,Pune,Maharashtra,2023,23,Low,Repeated harassment reported over social media platform.
+CC-0116,Online Fraud,Kolkata,West Bengal,2024,27,High,Financial loss caused through fake online transaction.
+CC-0117,Identity Theft,Kolkata,West Bengal,2022,39,Medium,Unauthorized use of personal identity information reported.
+CC-0118,Card Skimming,Mumbai,Maharashtra,2020,44,Medium,Payment card details copied using compromised device.
+CC-0119,Phishing,Lucknow,Uttar Pradesh,2022,48,Low,Victim received deceptive email requesting account credentials.
+CC-0120,Cyber Bullying,Hyderabad,Telangana,2025,42,Critical,Repeated harassment reported over social media platform.
+CC-0121,Card Skimming,Jaipur,Rajasthan,2024,65,Medium,Payment card details copied using compromised device.
+CC-0122,Online Fraud,Ahmedabad,Gujarat,2020,35,Medium,Financial loss caused through fake online transaction.
+CC-0123,Phishing,Kolkata,West Bengal,2021,60,High,Victim received deceptive email requesting account credentials.
+CC-0124,Card Skimming,Bengaluru,Karnataka,2025,47,Critical,Payment card details copied using compromised device.
+CC-0125,Phishing,Kolkata,West Bengal,2023,54,High,Victim received deceptive email requesting account credentials.
+CC-0126,Identity Theft,Kolkata,West Bengal,2020,47,Low,Unauthorized use of personal identity information reported.
+CC-0127,Data Breach,Kolkata,West Bengal,2021,31,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0128,Cyber Bullying,Kolkata,West Bengal,2021,66,Critical,Repeated harassment reported over social media platform.
+CC-0129,Card Skimming,Hyderabad,Telangana,2025,23,Medium,Payment card details copied using compromised device.
+CC-0130,Phishing,Pune,Maharashtra,2020,59,Low,Victim received deceptive email requesting account credentials.
+CC-0131,Phishing,Mumbai,Maharashtra,2020,30,High,Victim received deceptive email requesting account credentials.
+CC-0132,Ransomware,Chennai,Tamil Nadu,2020,48,High,Systems encrypted and ransom demanded for decryption key.
+CC-0133,Online Fraud,Ahmedabad,Gujarat,2024,34,High,Financial loss caused through fake online transaction.
+CC-0134,Ransomware,Lucknow,Uttar Pradesh,2023,65,High,Systems encrypted and ransom demanded for decryption key.
+CC-0135,Ransomware,Hyderabad,Telangana,2019,55,Low,Systems encrypted and ransom demanded for decryption key.
+CC-0136,Data Breach,Lucknow,Uttar Pradesh,2024,42,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0137,Online Fraud,Delhi,Delhi,2023,62,High,Financial loss caused through fake online transaction.
+CC-0138,Online Fraud,Delhi,Delhi,2024,67,Medium,Financial loss caused through fake online transaction.
+CC-0139,Identity Theft,Lucknow,Uttar Pradesh,2025,20,Medium,Unauthorized use of personal identity information reported.
+CC-0140,Card Skimming,Pune,Maharashtra,2019,50,High,Payment card details copied using compromised device.
+CC-0141,Phishing,Kolkata,West Bengal,2025,49,Low,Victim received deceptive email requesting account credentials.
+CC-0142,Cyber Bullying,Ahmedabad,Gujarat,2024,27,Medium,Repeated harassment reported over social media platform.
+CC-0143,Data Breach,Lucknow,Uttar Pradesh,2025,52,High,Sensitive customer information exposed by unauthorized access.
+CC-0144,Malware Attack,Kolkata,West Bengal,2025,64,High,Malicious software infected endpoint causing data disruption.
+CC-0145,Cyber Bullying,Chennai,Tamil Nadu,2025,23,Medium,Repeated harassment reported over social media platform.
+CC-0146,Malware Attack,Chennai,Tamil Nadu,2025,47,High,Malicious software infected endpoint causing data disruption.
+CC-0147,Card Skimming,Pune,Maharashtra,2019,49,Critical,Payment card details copied using compromised device.
+CC-0148,Ransomware,Ahmedabad,Gujarat,2020,40,High,Systems encrypted and ransom demanded for decryption key.
+CC-0149,Cyber Bullying,Hyderabad,Telangana,2023,62,Critical,Repeated harassment reported over social media platform.
+CC-0150,Phishing,Jaipur,Rajasthan,2020,23,Medium,Victim received deceptive email requesting account credentials.
+CC-0151,Card Skimming,Ahmedabad,Gujarat,2023,66,Medium,Payment card details copied using compromised device.
+CC-0152,Malware Attack,Ahmedabad,Gujarat,2022,68,Low,Malicious software infected endpoint causing data disruption.
+CC-0153,Data Breach,Chennai,Tamil Nadu,2022,62,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0154,Cyber Bullying,Ahmedabad,Gujarat,2023,51,Medium,Repeated harassment reported over social media platform.
+CC-0155,Cyber Bullying,Pune,Maharashtra,2024,47,Medium,Repeated harassment reported over social media platform.
+CC-0156,Data Breach,Chennai,Tamil Nadu,2019,64,Low,Sensitive customer information exposed by unauthorized access.
+CC-0157,Identity Theft,Jaipur,Rajasthan,2025,62,Low,Unauthorized use of personal identity information reported.
+CC-0158,Online Fraud,Ahmedabad,Gujarat,2021,64,High,Financial loss caused through fake online transaction.
+CC-0159,Data Breach,Delhi,Delhi,2025,30,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0160,Cyber Bullying,Bengaluru,Karnataka,2021,18,High,Repeated harassment reported over social media platform.
+CC-0161,Ransomware,Hyderabad,Telangana,2019,21,High,Systems encrypted and ransom demanded for decryption key.
+CC-0162,Ransomware,Ahmedabad,Gujarat,2019,18,High,Systems encrypted and ransom demanded for decryption key.
+CC-0163,Malware Attack,Ahmedabad,Gujarat,2022,39,Low,Malicious software infected endpoint causing data disruption.
+CC-0164,Phishing,Hyderabad,Telangana,2025,48,Low,Victim received deceptive email requesting account credentials.
+CC-0165,Identity Theft,Kolkata,West Bengal,2022,22,High,Unauthorized use of personal identity information reported.
+CC-0166,Phishing,Bengaluru,Karnataka,2020,69,High,Victim received deceptive email requesting account credentials.
+CC-0167,Data Breach,Delhi,Delhi,2020,25,High,Sensitive customer information exposed by unauthorized access.
+CC-0168,Card Skimming,Lucknow,Uttar Pradesh,2023,68,High,Payment card details copied using compromised device.
+CC-0169,Card Skimming,Ahmedabad,Gujarat,2022,37,Critical,Payment card details copied using compromised device.
+CC-0170,Card Skimming,Hyderabad,Telangana,2023,57,Low,Payment card details copied using compromised device.
+CC-0171,Identity Theft,Chennai,Tamil Nadu,2024,31,Medium,Unauthorized use of personal identity information reported.
+CC-0172,Identity Theft,Bengaluru,Karnataka,2020,29,High,Unauthorized use of personal identity information reported.
+CC-0173,Ransomware,Mumbai,Maharashtra,2022,46,High,Systems encrypted and ransom demanded for decryption key.
+CC-0174,Malware Attack,Hyderabad,Telangana,2019,32,Medium,Malicious software infected endpoint causing data disruption.
+CC-0175,Data Breach,Ahmedabad,Gujarat,2019,61,Medium,Sensitive customer information exposed by unauthorized access.
+CC-0176,Data Breach,Lucknow,Uttar Pradesh,2024,69,Critical,Sensitive customer information exposed by unauthorized access.
+CC-0177,Card Skimming,Delhi,Delhi,2023,32,High,Payment card details copied using compromised device.
+CC-0178,Data Breach,Bengaluru,Karnataka,2019,21,Low,Sensitive customer information exposed by unauthorized access.
+CC-0179,Data Breach,Lucknow,Uttar Pradesh,2024,70,High,Sensitive customer information exposed by unauthorized access.
+CC-0180,Data Breach,Ahmedabad,Gujarat,2019,47,High,Sensitive customer information exposed by unauthorized access.
+CC-0181,Card Skimming,Hyderabad,Telangana,2023,52,Medium,Payment card details copied using compromised device.
+CC-0182,Identity Theft,Lucknow,Uttar Pradesh,2019,45,High,Unauthorized use of personal identity information reported.
+CC-0183,Data Breach,Mumbai,Maharashtra,2019,32,Critical,Sensitive customer information exposed by unauthorized access.
+CC-0184,Phishing,Hyderabad,Telangana,2023,20,High,Victim received deceptive email requesting account credentials.
+CC-0185,Ransomware,Ahmedabad,Gujarat,2023,59,Medium,Systems encrypted and ransom demanded for decryption key.
+CC-0186,Data Breach,Bengaluru,Karnataka,2023,45,High,Sensitive customer information exposed by unauthorized access.
+CC-0187,Malware Attack,Delhi,Delhi,2022,40,Medium,Malicious software infected endpoint causing data disruption.
+CC-0188,Cyber Bullying,Delhi,Delhi,2025,28,Medium,Repeated harassment reported over social media platform.
+CC-0189,Malware Attack,Hyderabad,Telangana,2024,43,High,Malicious software infected endpoint causing data disruption.
+CC-0190,Phishing,Ahmedabad,Gujarat,2019,38,Medium,Victim received deceptive email requesting account credentials.
+CC-0191,Identity Theft,Kolkata,West Bengal,2025,50,High,Unauthorized use of personal identity information reported.
+CC-0192,Phishing,Jaipur,Rajasthan,2022,44,Low,Victim received deceptive email requesting account credentials.
+CC-0193,Cyber Bullying,Lucknow,Uttar Pradesh,2025,49,High,Repeated harassment reported over social media platform.
+CC-0194,Phishing,Chennai,Tamil Nadu,2021,53,Low,Victim received deceptive email requesting account credentials.
+CC-0195,Data Breach,Ahmedabad,Gujarat,2024,49,Low,Sensitive customer information exposed by unauthorized access.
+CC-0196,Online Fraud,Bengaluru,Karnataka,2021,53,Low,Financial loss caused through fake online transaction.
+CC-0197,Card Skimming,Delhi,Delhi,2020,25,Medium,Payment card details copied using compromised device.
+CC-0198,Identity Theft,Bengaluru,Karnataka,2022,63,Medium,Unauthorized use of personal identity information reported.
+CC-0199,Data Breach,Kolkata,West Bengal,2025,48,Critical,Sensitive customer information exposed by unauthorized access.
+CC-0200,Online Fraud,Ahmedabad,Gujarat,2023,27,Medium,Financial loss caused through fake online transaction.
