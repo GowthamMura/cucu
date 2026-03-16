@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="card">
+    <h2>Infrastructure Costs</h2>
+    <form method="post" class="validated-form">
+        <label>Infrastructure Type <input type="text" name="infra_type" required></label>
+        <label>Description <input type="text" name="description"></label>
+        <label>Cost <input type="number" name="cost" min="0" step="0.01" required></label>
+        <button type="submit">Save Infrastructure Cost</button>
+    </form>
+</section>
+{% endblock %}

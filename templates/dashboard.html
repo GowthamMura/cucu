@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="card">
+    <h2>Cost Dashboard</h2>
+    <p><strong>Total Healthcare Cost:</strong> {{ '%.2f'|format(total_cost) }}</p>
+
+    <h3>Category Breakdown</h3>
+    <table>
+        <thead>
+            <tr><th>Category</th><th>Cost</th></tr>
+        </thead>
+        <tbody>
+            {% for category, value in breakdown.items() %}
+                <tr>
+                    <td>{{ category }}</td>
+                    <td>{{ '%.2f'|format(value) }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h3>Billing Transparency</h3>
+    <table>
+        <thead>
+            <tr><th>Category</th><th>Cost</th><th>% of Total</th></tr>
+        </thead>
+        <tbody>
+            {% for row in transparency_table %}
+                <tr>
+                    <td>{{ row.category }}</td>
+                    <td>{{ '%.2f'|format(row.cost) }}</td>
+                    <td>{{ row.percentage }}%</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+<section class="card">
+    <h3>Patient Inflow/Discharge Analysis</h3>
+    <table>
+        <thead>
+            <tr><th>Metric</th><th>Count</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Patients Came In</td><td>{{ patient_flow.came_in }}</td></tr>
+            <tr><td>Patients Discharged</td><td>{{ patient_flow.discharged }}</td></tr>
+            <tr><td>Currently Admitted</td><td>{{ patient_flow.currently_admitted }}</td></tr>
+        </tbody>
+    </table>
+    <div id="flowChart"></div>
+</section>
+
+<section class="card">
+    <h3>Anomaly Detection (Z-score based)</h3>
+    {% for category, findings in anomalies.items() %}
+        <h4>{{ category|capitalize }}</h4>
+        {% if findings %}
+            <ul>
+                {% for item in findings %}
+                    <li>Record {{ item.record_index }}: amount {{ item.amount }}, z-score {{ item.z_score }}</li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No anomalies detected.</p>
+        {% endif %}
+    {% endfor %}
+</section>
+
+<section class="card">
+    <h3>Cost Visualization</h3>
+    <div id="costChart"></div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    const costGraphData = {{ cost_chart_json | safe }};
+    Plotly.newPlot('costChart', costGraphData.data, costGraphData.layout);
+
+    const flowGraphData = {{ flow_chart_json | safe }};
+    Plotly.newPlot('flowChart', flowGraphData.data, flowGraphData.layout);
+</script>
+{% endblock %}
